@@ -23,8 +23,8 @@ html, body {
 body{
 	font: 130%/1.3 TrebuchetMS,Arial,sans-serif;  /* Default fonts */
 	text-align: left; /* Alignment of the text */
-	color: black; /* Main text color */
-	background: white; /* Main text background color */
+	color: #A57CE8; /* Main text color */
+	background: #87BD2F; /* Main text background color */
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
 }
 
@@ -56,7 +56,7 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background:#000080;
+	background:#344647;
 	color: white;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
