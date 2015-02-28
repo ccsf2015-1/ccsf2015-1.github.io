@@ -1,4 +1,4 @@
-/* 
+/*
 
 	Hi!  Welcome to style.css.  CSS stands for cascading style sheet - we recommend http://www.w3schools.com/css/ for the nitty gritty of CSS syntax.  But basically, what you should know is:
 
@@ -15,9 +15,10 @@
 
 
 /* This section sets the defaults for the page, but you may never see changes here if they are overwritten by the div elements below.  */
-html, body {
+html, body,div {
 	margin: 0;  /* Margin is the amount of space between the border of an element, and the elements outside it. */
 	padding: 0; /* Padding is the amount of space between the border of an element, and the elements inside it. */
+	background: #353433 !important;
 }
 
 body{
@@ -77,7 +78,7 @@ div.section {
 /* This alters the appearance of the div with id="whoweare" */
 #whoweare {
 	background: white;
-	color: black; 
+	color: black;
 }
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
